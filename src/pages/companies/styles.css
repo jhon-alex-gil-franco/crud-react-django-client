@@ -1,0 +1,29 @@
+.container_form {
+  width: 40vw;
+}
+
+.title{
+  text-align: center;
+}
+
+.button_update{
+  width: 100%;
+  background: rgb(65, 119, 182);
+}
+
+.button_submit{
+  width: 100%;
+  background: rgb(49, 138, 115);
+}
+
+@media only screen and (max-width: 992px) {
+  .container_form {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container_form {
+    width: 80vw;
+  }
+}
